@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B37C554D1897E33F00C506B2 /* MonteCarlo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B37C554B1897E33F00C506B2 /* MonteCarlo.cpp */; };
+		B37C554D1897E33F00C506B2 /* MonteCarloFin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B37C554B1897E33F00C506B2 /* MonteCarloFin.cpp */; };
 		B3FFC5FD1897DF0D0031C736 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3FFC5FC1897DF0D0031C736 /* main.cpp */; };
 		B3FFC5FF1897DF0D0031C736 /* PRICER.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = B3FFC5FE1897DF0D0031C736 /* PRICER.1 */; };
 /* End PBXBuildFile section */
@@ -26,8 +26,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		B37C554B1897E33F00C506B2 /* MonteCarlo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MonteCarlo.cpp; path = ../MonteCarlo.cpp; sourceTree = "<group>"; };
-		B37C554C1897E33F00C506B2 /* MonteCarlo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MonteCarlo.h; path = ../MonteCarlo.h; sourceTree = "<group>"; };
+		B37C554B1897E33F00C506B2 /* MonteCarloFin.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MonteCarloFin.cpp; path = ../MonteCarloFin.cpp; sourceTree = "<group>"; };
+		B37C554C1897E33F00C506B2 /* MonteCarloFin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MonteCarloFin.h; path = ../MonteCarloFin.h; sourceTree = "<group>"; };
 		B3FFC5F91897DF0D0031C736 /* PRICER */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PRICER; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3FFC5FC1897DF0D0031C736 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		B3FFC5FE1897DF0D0031C736 /* PRICER.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = PRICER.1; sourceTree = "<group>"; };
@@ -63,8 +63,8 @@
 		B3FFC5FB1897DF0D0031C736 /* PRICER */ = {
 			isa = PBXGroup;
 			children = (
-				B37C554B1897E33F00C506B2 /* MonteCarlo.cpp */,
-				B37C554C1897E33F00C506B2 /* MonteCarlo.h */,
+				B37C554B1897E33F00C506B2 /* MonteCarloFin.cpp */,
+				B37C554C1897E33F00C506B2 /* MonteCarloFin.h */,
 				B3FFC5FC1897DF0D0031C736 /* main.cpp */,
 				B3FFC5FE1897DF0D0031C736 /* PRICER.1 */,
 			);
@@ -123,7 +123,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3FFC5FD1897DF0D0031C736 /* main.cpp in Sources */,
-				B37C554D1897E33F00C506B2 /* MonteCarlo.cpp in Sources */,
+				B37C554D1897E33F00C506B2 /* MonteCarloFin.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
