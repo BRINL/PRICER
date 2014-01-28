@@ -1,18 +1,17 @@
-//
-//  main.cpp
 //  PRICER
 //
-//  Created by Loïc Brin on 28/01/14.
-//  Copyright (c) 2014 Aymeric BELLON / Loïc BRIN. All rights reserved.
-//
+//  Aymeric BELLON / Loïc BRIN
+
 
 #include <iostream>
 
 int main(int argc, const char * argv[])
+
+
 {
 
     // insert code here...
-    std::cout << "Hello, World!\n";
+    std::cout << "Test Pricer Test 2\n";
     return 0;
 }
 
