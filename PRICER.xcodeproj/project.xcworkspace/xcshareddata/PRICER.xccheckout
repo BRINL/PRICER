@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F2B4AFAA-0DE4-4D7E-88FE-46E42FAED8F5</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PRICER</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>FD763FA7-1F61-4035-8CD4-58FEEB0A600C</key>
+		<string>https://github.com/BRINL/PRICER.git</string>
+		<key>FDBD2865-CAD7-4ACF-BEC7-C016C1F9A978</key>
+		<string>https://github.com/BRINL/PRICER.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>PRICER.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>FD763FA7-1F61-4035-8CD4-58FEEB0A600C</key>
+		<string>../..</string>
+		<key>FDBD2865-CAD7-4ACF-BEC7-C016C1F9A978</key>
+		<string>../../PRICER</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/BRINL/PRICER.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>FD763FA7-1F61-4035-8CD4-58FEEB0A600C</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FD763FA7-1F61-4035-8CD4-58FEEB0A600C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PRICER</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FDBD2865-CAD7-4ACF-BEC7-C016C1F9A978</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PRICER</string>
+		</dict>
+	</array>
+</dict>
+</plist>
