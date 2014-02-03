@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B37C554D1897E33F00C506B2 /* MonteCarloFin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B37C554B1897E33F00C506B2 /* MonteCarloFin.cpp */; };
+		B31353C4189E7C9C00807183 /* PayOff.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B31353C2189E7C9C00807183 /* PayOff.cpp */; };
+		B37C554D1897E33F00C506B2 /* MonteCarlo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B37C554B1897E33F00C506B2 /* MonteCarlo.cpp */; };
+		B37C555018983D4D00C506B2 /* Genealeatoire.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B37C554E18983D4D00C506B2 /* Genealeatoire.cpp */; };
 		B3FFC5FD1897DF0D0031C736 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3FFC5FC1897DF0D0031C736 /* main.cpp */; };
 		B3FFC5FF1897DF0D0031C736 /* PRICER.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = B3FFC5FE1897DF0D0031C736 /* PRICER.1 */; };
 /* End PBXBuildFile section */
@@ -26,8 +28,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		B37C554B1897E33F00C506B2 /* MonteCarloFin.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MonteCarloFin.cpp; path = ../MonteCarloFin.cpp; sourceTree = "<group>"; };
-		B37C554C1897E33F00C506B2 /* MonteCarloFin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MonteCarloFin.h; path = ../MonteCarloFin.h; sourceTree = "<group>"; };
+		B31353C2189E7C9C00807183 /* PayOff.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PayOff.cpp; path = ../PayOff.cpp; sourceTree = "<group>"; };
+		B31353C3189E7C9C00807183 /* PayOff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PayOff.h; path = ../PayOff.h; sourceTree = "<group>"; };
+		B37C554B1897E33F00C506B2 /* MonteCarlo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MonteCarlo.cpp; path = ../MonteCarlo.cpp; sourceTree = "<group>"; };
+		B37C554C1897E33F00C506B2 /* MonteCarlo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MonteCarlo.h; path = ../MonteCarlo.h; sourceTree = "<group>"; };
+		B37C554E18983D4D00C506B2 /* Genealeatoire.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Genealeatoire.cpp; path = ../Genealeatoire.cpp; sourceTree = "<group>"; };
+		B37C554F18983D4D00C506B2 /* Genealeatoire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Genealeatoire.h; path = ../Genealeatoire.h; sourceTree = "<group>"; };
 		B3FFC5F91897DF0D0031C736 /* PRICER */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PRICER; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3FFC5FC1897DF0D0031C736 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		B3FFC5FE1897DF0D0031C736 /* PRICER.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = PRICER.1; sourceTree = "<group>"; };
@@ -63,8 +69,12 @@
 		B3FFC5FB1897DF0D0031C736 /* PRICER */ = {
 			isa = PBXGroup;
 			children = (
-				B37C554B1897E33F00C506B2 /* MonteCarloFin.cpp */,
-				B37C554C1897E33F00C506B2 /* MonteCarloFin.h */,
+				B31353C2189E7C9C00807183 /* PayOff.cpp */,
+				B31353C3189E7C9C00807183 /* PayOff.h */,
+				B37C554E18983D4D00C506B2 /* Genealeatoire.cpp */,
+				B37C554F18983D4D00C506B2 /* Genealeatoire.h */,
+				B37C554B1897E33F00C506B2 /* MonteCarlo.cpp */,
+				B37C554C1897E33F00C506B2 /* MonteCarlo.h */,
 				B3FFC5FC1897DF0D0031C736 /* main.cpp */,
 				B3FFC5FE1897DF0D0031C736 /* PRICER.1 */,
 			);
@@ -122,8 +132,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B31353C4189E7C9C00807183 /* PayOff.cpp in Sources */,
 				B3FFC5FD1897DF0D0031C736 /* main.cpp in Sources */,
-				B37C554D1897E33F00C506B2 /* MonteCarloFin.cpp in Sources */,
+				B37C555018983D4D00C506B2 /* Genealeatoire.cpp in Sources */,
+				B37C554D1897E33F00C506B2 /* MonteCarlo.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
