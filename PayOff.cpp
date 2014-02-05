@@ -8,25 +8,24 @@
 
 #define max(a,b) ((a) > (b) ? (a) : (b)) // la fonction max n'étant pas définie en C++ on la définit en amont.
 
+PayOff::PayOff(){};
 
-PayOffCall::PayOffCall(double Strike_) : Strike(Strike_)
+PayOffCall::PayOffCall(double Strike) : m_Strike(Strike)
+{}
+
+
+double PayOffCall::CalPayOff(double Spot) const // on met un const car on ne veut pas modifier l'objet, juste calculer une nouvelle valeur
 {
+    return max(Spot-m_Strike,0.0);
 }
 
-double PayOffCall::operator()(double Spot) const
+
+PayOffPut::PayOffPut(double Strike) : m_Strike(Strike)
+{}
+
+double PayOffPut::CalPayOff(double Spot) const
 {
-    return max(Spot-Strike,0.0);
-}
-
-
-
-PayOffPut::PayOffPut(double Strike_) : Strike(Strike_)
-{
-}
-
-double PayOffPut::operator()(double Spot) const
-{
-    return max(Strike-Spot, 0.0);
+    return max(m_Strike-Spot, 0.0);
 }
 
 

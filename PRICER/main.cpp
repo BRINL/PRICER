@@ -23,6 +23,7 @@ int main()
     double Vol;
     double r;
     unsigned long NumberOfPaths;
+    int TypeOption;
     cout << "\nEntrer la maturité\n";
     cin >> Expiry;
     cout<< "\nEntrer strike\n";
@@ -35,19 +36,16 @@ int main()
     cin >> r;
     cout<< "\nEntrer nombre d'itérations\n";
     cin >> NumberOfPaths;
+    cout<< "\nEntrer 1 pour un Call, 0 pour Put\n";
+    cin >> TypeOption;
+
     
-    // A clarifier.
-    // Permet de créer un PayOff à partir d'un strike et d'un type d'option. //
-    
-    PayOffCall callPayOff(Strike);
-    PayOffPut putPayOff(Strike);
-    
+    MonteCarloB MonTest(TypeOption, Strike, Expiry, Spot, Vol, r, NumberOfPaths);
     //
     
-    double resultcall= SimpleMonteCarlo(callPayOff, Expiry, Spot, Vol, r, NumberOfPaths);
-    double resultput= SimpleMonteCarlo(putPayOff, Expiry, Spot, Vol, r, NumberOfPaths);
+    double resultcall= MonTest.PrixCallB();
     
-    cout <<"Les prix sont de " << resultcall << " pour le call " << resultput << " pour le put.\n";
+    cout <<"Les prix sont de " << resultcall << " pour le call ";
     
     double tmp;
     cin >> tmp;
