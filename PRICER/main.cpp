@@ -4,6 +4,7 @@
 
 
 #include "MonteCarlo.h"
+#include "Genealeatoire.h"
 #include <iostream>
 #include <cmath>
 
@@ -43,13 +44,8 @@ int main()
     MonteCarloB MonTest(TypeOption, Strike, Expiry, Spot, Vol, r, NumberOfPaths);
     //
     
-    double resultcall= MonTest.PrixCallB();
-    
-    cout <<"Les prix sont de " << resultcall << " pour le call ";
-    
-    double tmp;
-    cin >> tmp;
-    
+    cout <<"Les prix est de " << 3 << " pour le call " << endl;
+
     return 0;
 
 }

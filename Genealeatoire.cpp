@@ -1,34 +1,49 @@
 //
 //  Genealeatoire.cpp
-//  Le but est de générer des observations de variables aléatoires suivant des lois définies dans des sous classes ///
-// Loïc : Ce n'est pas une classe, juste une externalisation d'une fonction. Il faudrait peut-être créer une classe genealeatoire et deux filles : normale / poisson. On peut jeter ces techniques et en créer des nouvelles//
-
-
 
 
 #include "Genealeatoire.h"
 #include <cstdlib>
 #include <cmath>
+#include "math.h"
+#include "time.h"
+#include <stdlib.h>
+#include <stdio.h>
 
 using namespace std;
 
-Normale :: Normale(double mu, double sigma2) : m_mu(mu), m_sigma2(sigma2) // constructeur Normale
+int rdtsc()
 {
-}
-
-double Normale:: gNormale() const
-{
-    // ICI simulation d'une loi normale (m_mu, m_sigma2)
-    return m_mu+m_sigma2 ;
-}
-
-Poisson :: Poisson(double lambda) : m_lambda(lambda) // Constructeur Poisson
-{
-}
-
-double Poisson::gPoisson() const
-{
-    // ICI simulation d'une loi de poisson(m_lambda)
+    __asm__ __volatile__("rdtsc");
     return 0;
 }
+
+double uRand()
+{
+    srand(rdtsc());
+    return (rand() / double(RAND_MAX));
+}
+
+double gNormale(const double mu, const double sigma2)
+{
+    double r=sqrt(-2*log(uRand()));
+    double t=2*M_PI*(uRand());
+    double x=r*sin(t);
+    return x;
+}
+
+
+int gPoisson(double lambda)
+{
+    double L=exp(-lambda);
+    double p(1);
+    int k(1);
+    while (p>L)
+    {
+        p=p*rand();
+        k+=1;
+    }
+    return (k-1);
+}
+
 

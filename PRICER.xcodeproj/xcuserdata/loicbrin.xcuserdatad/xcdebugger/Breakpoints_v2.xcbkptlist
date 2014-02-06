@@ -10,41 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Genealeatoire.cpp"
-            timestampString = "413292233.133936"
+            timestampString = "413396880.472415"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "9"
-            endingLineNumber = "9">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Normale::Normale(double, double)"
-                  moduleName = "PRICER"
-                  urlString = "file://localhost/Users/loicbrin/Dropbox/01.%20ENSAE/02.%202A/00.%20Premier%20semestre/07.%20C++/PRICERF/PRICER/Genealeatoire.cpp"
-                  timestampString = "413310036.682959"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "17"
-                  endingLineNumber = "17"
-                  offsetFromSymbolStart = "26">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Normale::Normale(double, double)"
-                  moduleName = "PRICER"
-                  urlString = "file://localhost/Users/loicbrin/Dropbox/01.%20ENSAE/02.%202A/00.%20Premier%20semestre/07.%20C++/PRICERF/PRICER/Genealeatoire.cpp"
-                  timestampString = "413310036.683452"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "16"
-                  endingLineNumber = "16"
-                  offsetFromSymbolStart = "26">
-               </Location>
-            </Locations>
+            startingLineNumber = "5"
+            endingLineNumber = "5">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -89,6 +59,36 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "8"
             endingLineNumber = "8">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PRICER/main.cpp"
+            timestampString = "413395327.885479"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PRICER/main.cpp"
+            timestampString = "413395327.885479"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "main()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

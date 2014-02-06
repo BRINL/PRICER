@@ -36,8 +36,8 @@ double MonteCarloB::PrixCallB()
     
     for (unsigned long i=0; i<m_NumberOfPaths;i++)
     {
-        Normale  simu1(3,8);
-        double thisGaussian = simu1.gNormale();
+
+        double thisGaussian = gNormale(3,8);
         thisSpot=movedSpot*exp(Rootvariance*thisGaussian);
         *m_PayOff= PayOffCall(m_Strike);
         double PayOffMC=m_PayOff->CalPayOff(thisSpot);
